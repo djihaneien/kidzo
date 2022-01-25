@@ -1,2 +1,55 @@
-<h1>hello mamiii</h1>
-<h2> hi it's mee</h2>
+<!DOCTYPE html>
+<html>
+<head>
+    <link  rel="stylesheet" type="text/css" href="singup.css">
+    
+    <title>registration</title>
+</head>
+<body>
+    <div class="regform"><h1> registration form </h1> </div>
+    <div class="main"> 
+        <form>
+            <div id="name">
+                <h2 class ="name">Name</h2>
+                <input class="firstname" type="text" name="first_name"> <br>
+                <label class="firstlable">first name </label>
+                <input class="lastname" type="text" name="last_name"> 
+                <label class="lastlable">last name </label>
+            </div>
+            <h2 class="name">School</h2>
+            <input class="School" type="text" name="school">
+            <h2 class="name">Email</h2>
+            <input class="email" type="text" name="email">
+            <h2 class="name"> Phone </h2>
+            <input class="code" type="text" name="area_code">
+            <label class="area_code"> Area code</label>
+            <input class="number" type="text" name="phone">
+            <label class="phone_number">Phone number</label>
+            <h2 class="name">subject</h2>
+            <select class="option" name="subject">
+                <option disabled="disabled" selected="selected">---choose option</option>
+                <option> subject1</option>
+                <option> subject2</option>
+                <option> subject3</option>
+                <option> subject4</option>
+                
+        
+            </select>
+            <h2 id="student"> are you beginner ?</h2>
+            <label class="radio"> 
+                <input class="radio-one" type="radio" checked="checked" name="">
+                <span class="checkmark"> </span> 
+                yes
+
+            </label>
+            <label class="radio"> 
+                <input class="radio-two" type="radio"  name="">
+                <span class="checkmark"> </span> 
+                No
+            </label>
+            <button type="submit"> register </button>
+
+        </form>  
+    </div>
+</body>
+</html>
